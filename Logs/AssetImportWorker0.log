@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2021.2/staging' branch; Version is '2021.2.17f1 (efb8f635e7b1) revision 15710454'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 6091 MB
+Built from '2021.2/staging' branch; Version is '2021.2.19f1 (602ecdbb2fb0) revision 6303437'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 8110 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity 2021.2.17f1\Editor\Unity.exe
+C:\Program Files\Unity 2021.2.19f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/adamj/Documents/Final Project 20212022/New Unity Project
+C:/Users/New User/Desktop/Project-2021-2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63079
-Successfully changed project path to: C:/Users/adamj/Documents/Final Project 20212022/New Unity Project
-C:/Users/adamj/Documents/Final Project 20212022/New Unity Project
+49746
+Successfully changed project path to: C:/Users/New User/Desktop/Project-2021-2022
+C:/Users/New User/Desktop/Project-2021-2022
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,105 +47,103 @@ C:/Users/adamj/Documents/Final Project 20212022/New Unity Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 98.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 72.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.2.17f1 (efb8f635e7b1)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.2.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/adamj/Documents/Final Project 20212022/New Unity Project/Assets
+Initialize engine version: 2021.2.19f1 (602ecdbb2fb0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.2.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/New User/Desktop/Project-2021-2022/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15d8)
-    Vendor:   ATI
-    VRAM:     3045 MB
-    Driver:   27.20.11044.5003
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1b84)
+    Vendor:   NVIDIA
+    VRAM:     2988 MB
+    Driver:   27.21.14.6109
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity 2021.2.17f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity 2021.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity 2021.2.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Mono path[0] = 'C:/Program Files/Unity 2021.2.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.2.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity 2021.2.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008774 seconds.
+Register platform support module: C:/Program Files/Unity 2021.2.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006961 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 78.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 70.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.348 seconds
+- Completed reload, in  0.692 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1349ms)
-		BeginReloadAssembly (128ms)
+	ReloadAssembly (692ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (902ms)
-			LoadAssemblies (121ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (484ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (313ms)
+			SetupTypeCache (119ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (359ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (282ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (197ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007868 seconds.
+Registered in 0.007541 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\adamj\Documents\Final Project 20212022\New Unity Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\adamj\Documents\Final Project 20212022\New Unity Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.448 seconds
+- Completed reload, in  1.075 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1449ms)
-		BeginReloadAssembly (163ms)
+	ReloadAssembly (1076ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1102ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (813ms)
+			LoadAssemblies (125ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (380ms)
+			SetupTypeCache (251ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (494ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (350ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (341ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (274.1 KB). Loaded Objects now: 3600.
-Memory consumption went from 110.4 MB to 110.1 MB.
-Total: 5.208000 ms (FindLiveObjects: 0.420100 ms CreateObjectMapping: 0.168200 ms MarkObjects: 4.356100 ms  DeleteObjects: 0.262300 ms)
+Unloading 3116 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (274.1 KB). Loaded Objects now: 3603.
+Memory consumption went from 110.6 MB to 110.3 MB.
+Total: 4.678000 ms (FindLiveObjects: 0.495700 ms CreateObjectMapping: 0.324000 ms MarkObjects: 3.379000 ms  DeleteObjects: 0.477300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,43 +157,73 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 189216.365181 seconds.
+  Time since last request: 1105228.020910 seconds.
+  path: Assets/GoogleMaps/Resources
+  artifactKey: Guid(838fa642a9e6d26458ef5a4983083482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMaps/Resources using Guid(838fa642a9e6d26458ef5a4983083482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fad1984f67254e697ca9ed696305422') in 0.013406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
   path: Assets/GoogleMaps/Resources/GoogleMapsShaderLib.cginc
   artifactKey: Guid(736a155bcfc0242e49c4fc70f703f001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GoogleMaps/Resources/GoogleMapsShaderLib.cginc using Guid(736a155bcfc0242e49c4fc70f703f001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037c42ef20696ad8fc00aa6f51917c46') in 0.062691 seconds 
+Start importing Assets/GoogleMaps/Resources/GoogleMapsShaderLib.cginc using Guid(736a155bcfc0242e49c4fc70f703f001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c888e052424b5d84ee6c8083f098cfc') in 0.295705 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.007576 seconds.
-  path: Assets/GoogleMaps/Resources/BaseMapColor.shader
-  artifactKey: Guid(cf57c499e03bb47a5b6a484ce19fb7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GoogleMaps/Resources/BaseMapColor.shader using Guid(cf57c499e03bb47a5b6a484ce19fb7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074a584aa30c56cae5c3691c7cfdc5e1') in 0.014749 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 41.497096 seconds.
+  Time since last request: 0.189915 seconds.
   path: Assets/GoogleMaps/Resources/BaseMapColorUnlit.shader
   artifactKey: Guid(ad4cbc92cd42940b2bcfb6c29f748272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GoogleMaps/Resources/BaseMapColorUnlit.shader using Guid(ad4cbc92cd42940b2bcfb6c29f748272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe653f1b23d72e0d7465f0ca08347d8') in 0.035811 seconds 
+Start importing Assets/GoogleMaps/Resources/BaseMapColorUnlit.shader using Guid(ad4cbc92cd42940b2bcfb6c29f748272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbd4ec7cd35b6e51520168958cd8873') in 0.017092 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.546817 seconds.
+  Time since last request: 4.235773 seconds.
   path: Assets/GoogleMaps/Resources/BaseMapTextured.shader
   artifactKey: Guid(74209129083190abc09138fe0913bf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GoogleMaps/Resources/BaseMapTextured.shader using Guid(74209129083190abc09138fe0913bf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93cef110dfe1ada81b4e9352e010f9c') in 0.025622 seconds 
+Start importing Assets/GoogleMaps/Resources/BaseMapTextured.shader using Guid(74209129083190abc09138fe0913bf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24008b322d70e23a32dfd6ead0501fba') in 0.006782 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.819166 seconds.
+  Time since last request: 1.402189 seconds.
   path: Assets/GoogleMaps/Resources/BaseMapTexturedUnlit.shader
   artifactKey: Guid(84183bed7e90f4bcba69d110857e808f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GoogleMaps/Resources/BaseMapTexturedUnlit.shader using Guid(84183bed7e90f4bcba69d110857e808f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06ffc42b7e39e5642482d0c1a4ea47d') in 0.009053 seconds 
+Start importing Assets/GoogleMaps/Resources/BaseMapTexturedUnlit.shader using Guid(84183bed7e90f4bcba69d110857e808f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2495eaa211584f149fe7c921501455f7') in 0.009586 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.311286 seconds.
+  Time since last request: 3.354590 seconds.
   path: Assets/GoogleMaps/Resources/MuskStandard.shader
   artifactKey: Guid(e2fbd16d50e424fb4b36edfff38eed09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GoogleMaps/Resources/MuskStandard.shader using Guid(e2fbd16d50e424fb4b36edfff38eed09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44dee734792a5a5e359806fe2a72de84') in 0.013015 seconds 
+Start importing Assets/GoogleMaps/Resources/MuskStandard.shader using Guid(e2fbd16d50e424fb4b36edfff38eed09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eda451c7c6f476f8fe008ec3718f842') in 0.009899 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.229036 seconds.
-  path: Assets/GoogleMaps/Scripts/DeviceCountryProvider.cs
-  artifactKey: Guid(2e0b68449f5c494498f0894eb2aa8a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GoogleMaps/Scripts/DeviceCountryProvider.cs using Guid(2e0b68449f5c494498f0894eb2aa8a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccccd3eec6d1d467dc17d46c8dc97ccd') in 0.058583 seconds 
+  Time since last request: 10.419721 seconds.
+  path: Packages/com.unity.test-framework/package.json
+  artifactKey: Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.test-framework/package.json using Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18898ccc8b096ee8f2e6704cc6568de') in 0.036628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.016614 seconds.
+  path: Assets/GoogleMaps/Plugins
+  artifactKey: Guid(62970f10ddc7cfb4b8ff4ae12894cba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMaps/Plugins using Guid(62970f10ddc7cfb4b8ff4ae12894cba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac63416e721c888a28a9de8587625ac') in 0.009231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.783735 seconds.
+  path: Assets/GoogleMaps/Plugins/Google.Protobuf.dll
+  artifactKey: Guid(4bc5fa8a13ae24517a23727a5c269547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMaps/Plugins/Google.Protobuf.dll using Guid(4bc5fa8a13ae24517a23727a5c269547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c229e6bf3cccdbdd55c5303214a32a2') in 0.052458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.500486 seconds.
+  path: Assets/GoogleMaps/Plugins/Google.Maps.Proto.dll
+  artifactKey: Guid(5894e78e4f4fb41ab8d257743a2eb880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMaps/Plugins/Google.Maps.Proto.dll using Guid(5894e78e4f4fb41ab8d257743a2eb880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392c0a59305968459fccc0abb98a1324') in 0.006900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.544157 seconds.
+  path: Assets/GoogleMaps/Plugins/Google.Maps.Editor.dll
+  artifactKey: Guid(19b7359ec936e475cbeb467f5683e066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMaps/Plugins/Google.Maps.Editor.dll using Guid(19b7359ec936e475cbeb467f5683e066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac87f32317fcdea3af0cd00c2664881') in 0.008847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.339450 seconds.
+  path: Assets/GoogleMaps/Plugins/Google.Maps.dll
+  artifactKey: Guid(322c8874b7f0401c8c1211fe39d44d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMaps/Plugins/Google.Maps.dll using Guid(322c8874b7f0401c8c1211fe39d44d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa39b1514163b83c0abe36623b6162a1') in 0.009597 seconds 
